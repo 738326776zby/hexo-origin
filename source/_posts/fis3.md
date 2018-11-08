@@ -1,6 +1,7 @@
 ---
 title: fis3
 categories: 追求优雅的程序媛的日常
+date: 2017-7-06 17:39:28
 ---
 &emsp;&emsp;虽然gulp和grunt的竞争如火如荼，但是很显然gulp仍让在傲视群雄吧，在github 上最新的 star 数量目前直接逼近3万了，可见前端的架构越来越重要了。
 &emsp;&emsp;今天我要介绍的是fis3,最近资管项目用了fis3 做了项目的前端架构，给我的感觉很轻量，通过简单方便的配置就能把项目加架起来。
@@ -46,7 +47,7 @@ fis.media() : 提供多种状态功能（有一些配置是需要在开发中使
 
 #### 1.项目目录如下:
 
-![logo](../../../../images/5.png)
+![logo](/images/5.png)
 
 
 components 文件夹 主要是一些页面公用的方法，比如bootstrap,jquery,jquery-validate,moment,underscore,均被模块化，遵循commentJS规范

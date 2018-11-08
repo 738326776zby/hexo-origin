@@ -24,7 +24,7 @@ tags:
 
 #### 2.cookie 的属性
 ***
-![logo](../../../../images/YY.jpg)
+![logo](/images/YY.jpg)
 
 ``` bash
 name字段为一个cookie的名称。

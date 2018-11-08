@@ -12,7 +12,7 @@ view ：html
 viewMoudule: 事件方法
 moudule:与数据源进行对接
 ```
-![logo](../../../../images/Image.png)
+![logo](/images/Image.png)
 #### 2.指令
 ``` bash
  v-model: 用于一般表单的双向数据绑定

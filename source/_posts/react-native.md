@@ -51,7 +51,7 @@ react-native init AwesomeProject
 ```
 下载好后项目的目录结构
 
-![logo](../../../../images/1.png)
+![logo](/images/1.png)
 
 #### 2.进入项目当前目录的文件夹下命令行中手动运行 Packager
 
@@ -60,13 +60,13 @@ cd AwesomeProject
 react-native start
 ```
 
-![logo](../../../../images/2.png)
+![logo](/images/2.png)
 
 #### 3.打开虚拟机 和 Genymotion ，在 Genymotion 要添加设备，并启动设备
 
 #### 4.项目启动好了以后 在android Studio中导入 项目目录中android文件夹
 
-![logo](../../../../images/3.png)
+![logo](/images/3.png)
 #### 5.android studio 中启动项目， Genymotion 的虚拟机 上的react-native 的项目启动好了
 
-![logo](../../../../images/4.png)
+![logo](/images/4.png)
