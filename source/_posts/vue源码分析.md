@@ -120,4 +120,4 @@ Vue.use = function(plugin) {
 ![logo](/images/vue源码-4.png)
 我们看一下 Vue.use(vueRouter) 执行时，数据的变化
 
-![logo](/images/vue源码-5.png)
+![logo](/images/vue源码-6.png)

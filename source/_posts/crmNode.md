@@ -1,11 +1,11 @@
 ---
 title: crm管理系统
 date: 2018-11-8 20:23:00
-tags: [nodeJS, js]
+tags: [nodeJS, js,vue]
 ---
 
 最近我在学习nodeJS
-做了个简单的 [项目](https://github.com/738326776zby/node-JS-crm),前端用了 vue ,后端用到的技术是 node +koa+ mongodb + mongoose,这里主要给大家介绍后端的服务搭建
+做了个简单的后台项目,前端用了 vue ,实际上就是把我以前的项目改一改,后端用到的技术是 node +koa+ mongodb + mongoose,这里主要给大家介绍后端的服务搭建
 
 #### 1.后端结构目录
 ![logo](/images/crmNode-1.png)
