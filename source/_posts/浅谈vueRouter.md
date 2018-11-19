@@ -6,7 +6,7 @@ tags: vue
 上次去今日头条面试时，被问及 vue-router 的诸多问题，比如 vue-router 的两种模式的区别，是如何实现的？ 如何给 vue-router 扩展一个其他的方法？ vue 跳转路由的方式有哪些，这些的区别是什么？...
 
 
-#### vue-router 的两种模式。
+#### 1.vue-router 的两种模式。
 * hash 模式是 vue-router 的默认的模式，路由的表现形式为穿插 # 符号，比如 http://localhost:8080/#/, 虽然 # 在url上略显奇怪，但是他优有点就是在发送请求时，hash 值不会作为 URL 发送给后台
 * history 模式利用了 history.pushState API 来完成 URL 跳转而无须重新加载页面。 比如 http://localhost:8080/hello 但是这使得前端的URL 和后端的 api 紧密关联起来 ，后端需要提供带有 /hello/*** 的接口了
 ``` javascript
@@ -15,7 +15,7 @@ const router = new VueRouter({
     routes: [...]
 })
 ```
-#### vue-router 的跳转方式
+#### 2.vue-router 的跳转方式
 ``` javascript
  this.$router.push({ path: '/two' })
  this.$router.replace({path：'/two' })
@@ -42,7 +42,7 @@ function pushState (url, replace) {
 }
 ```
 
-#### 现在我们已经修改了路由的值，那么页面是如何根据不同的路由进行更新的呢？
+#### 3.现在我们已经修改了路由的值，那么页面是如何根据不同的路由进行更新的呢？
 ``` javascript
 var supportsPushState = inBrowser && (function () {
     var ua = window.navigator.userAgent;
